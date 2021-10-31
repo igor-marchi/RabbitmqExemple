@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31825.309
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Send", "01.Send", "{80EEB81F-5859-42C6-850C-44EC41F201C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Recive", "02.Recive", "{F6B16686-88AA-45D4-9595-0C9478CDF0C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Send", "Send\Send.csproj", "{FE23FF7D-8D61-4B6B-9FB4-A49D00F99741}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recive", "Recive\Recive.csproj", "{D307DBAB-61A3-4421-BD0D-EE390336CEA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE23FF7D-8D61-4B6B-9FB4-A49D00F99741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE23FF7D-8D61-4B6B-9FB4-A49D00F99741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE23FF7D-8D61-4B6B-9FB4-A49D00F99741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE23FF7D-8D61-4B6B-9FB4-A49D00F99741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D307DBAB-61A3-4421-BD0D-EE390336CEA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D307DBAB-61A3-4421-BD0D-EE390336CEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D307DBAB-61A3-4421-BD0D-EE390336CEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D307DBAB-61A3-4421-BD0D-EE390336CEA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE23FF7D-8D61-4B6B-9FB4-A49D00F99741} = {80EEB81F-5859-42C6-850C-44EC41F201C6}
+		{D307DBAB-61A3-4421-BD0D-EE390336CEA2} = {F6B16686-88AA-45D4-9595-0C9478CDF0C5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64ABCBC7-3D70-496C-B506-8278FE9D2494}
+	EndGlobalSection
+EndGlobal
